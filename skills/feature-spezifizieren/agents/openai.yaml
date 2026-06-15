@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature spezifizieren"
+  short_description: "Erstellt eine prüfbare Feature-Spezifikation"
+  default_prompt: "Nutze $feature-spezifizieren, um eine Feature-Idee als prüfbare Spezifikation auszuarbeiten."

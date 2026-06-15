@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature prüfen"
+  short_description: "Prüft Feature-Artefakte und Umsetzung auf Konsistenz"
+  default_prompt: "Nutze $feature-pruefen, um Spezifikation, Plan, Aufgaben und Umsetzung des Features zu prüfen."

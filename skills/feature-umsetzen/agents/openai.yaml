@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature umsetzen"
+  short_description: "Setzt freigegebene Feature-Aufgaben kontrolliert um"
+  default_prompt: "Nutze $feature-umsetzen, um die nächste offene Aufgabe des freigegebenen Features umzusetzen."

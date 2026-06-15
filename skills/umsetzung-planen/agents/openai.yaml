@@ -1,0 +1,4 @@
+interface:
+  display_name: "Umsetzung planen"
+  short_description: "Plant die Umsetzung einer freigegebenen Spezifikation"
+  default_prompt: "Nutze $umsetzung-planen, um für die freigegebene Feature-Spezifikation einen Umsetzungsplan zu erstellen."
