@@ -1,7 +1,22 @@
 # Gemeinsame Regeln für Coding-Agenten
 
 Diese Regeln gelten unabhängig vom verwendeten Skill. Die konkreten Abläufe
-stehen unter `skills/`.
+stehen unter `.agents/skills/`.
+
+## Werkzeugkompatibilität
+
+Die kanonischen Skills liegen unter `.agents/skills/`.
+
+- Codex erkennt die Skills dort automatisch.
+- Claude Code liest diese Datei über `CLAUDE.md`, erkennt Skills jedoch unter
+  `.claude/skills/`.
+- Wenn du Claude Code bist und der Benutzer dich ausdrücklich mit der
+  Ersteinrichtung beauftragt, übernimm die kanonischen Skills nach
+  `.claude/skills/`.
+- Behalte Namen und Inhalte der `SKILL.md`-Dateien bei. Codex-spezifische
+  Dateien unter `agents/` müssen nicht übernommen werden.
+- Führe keine Migration ungefragt oder wiederholt aus.
+- Behandle `.agents/skills/` weiterhin als maßgebliche Quelle.
 
 ## Verbindliche Quellen
 

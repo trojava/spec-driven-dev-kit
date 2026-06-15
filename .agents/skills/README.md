@@ -8,4 +8,4 @@ Empfohlener Ablauf:
 4. `$feature-umsetzen`
 5. `$feature-pruefen` (Abschlussprüfung)
 
-Die gemeinsamen Regeln stehen in `../AGENTS.md`.
+Die gemeinsamen Regeln stehen in `../../AGENTS.md`.

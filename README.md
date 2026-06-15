@@ -33,8 +33,15 @@ gelöscht werden.
 ```text
 .
 |-- AGENTS.md
+|-- CLAUDE.md
 |-- LICENSE
 |-- README.md
+|-- .agents/
+|   `-- skills/
+|       |-- feature-pruefen/
+|       |-- feature-spezifizieren/
+|       |-- feature-umsetzen/
+|       `-- umsetzung-planen/
 |-- docs/
 |   |-- prinzipien.md
 |   `-- vision.md
@@ -48,18 +55,13 @@ gelöscht werden.
 |       |-- aufgaben.md
 |       |-- plan.md
 |       `-- spezifikation.md
-`-- skills/
-    |-- feature-pruefen/
-    |-- feature-spezifizieren/
-    |-- feature-umsetzen/
-    `-- umsetzung-planen/
 ```
 
 ## Arbeitsweise mit einem KI-Agenten
 
-Das Template enthält vier optionale Skills. Ein Agent mit Skill-Unterstützung
-kann sie direkt aufrufen. Andernfalls dienen die jeweiligen `SKILL.md`-Dateien
-als kurze Arbeitsanleitung.
+Das Template enthält unter `.agents/skills/` vier Skills, die Codex automatisch
+erkennt. Andere Agenten können die jeweiligen `SKILL.md`-Dateien als kurze
+Arbeitsanleitung verwenden.
 
 - `feature-spezifizieren`: Idee klären und `spezifikation.md` erstellen
 - `umsetzung-planen`: `plan.md` und danach `aufgaben.md` erstellen
@@ -80,6 +82,18 @@ Beispielaufrufe:
 
 Die verbindlichen Regeln für Agenten stehen ausschließlich in `AGENTS.md`.
 Projektweite Qualitätsmaßstäbe werden in `docs/prinzipien.md` gepflegt.
+
+### Claude Code
+
+`CLAUDE.md` importiert die gemeinsamen Regeln aus `AGENTS.md`. Bitte Claude
+Code bei der ersten Nutzung ausdrücklich:
+
+> Richte dieses Projekt für Claude Code ein. Befolge dazu den Abschnitt
+> "Werkzeugkompatibilität" in `AGENTS.md`.
+
+Claude legt daraufhin seine Skill-Kopien unter `.claude/skills/` an. Die
+kanonischen Skills unter `.agents/skills/` bleiben maßgeblich. In Claude Code
+werden sie beispielsweise mit `/feature-spezifizieren` aufgerufen.
 
 ## Als GitHub-Template verwenden
 
