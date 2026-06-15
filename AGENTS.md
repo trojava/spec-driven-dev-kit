@@ -42,6 +42,9 @@ Melde Widersprüche, bevor du weiterarbeitest.
 - Arbeite nur am ausdrücklich genannten Feature und Auftrag.
 - Halte Änderungen klein und nachvollziehbar.
 - Ändere freigegebene Anforderungen nicht stillschweigend.
+- Ändere bei fachlichen Anpassungswünschen nach einer Umsetzung nicht direkt
+  den Code. Aktualisiere und genehmige zuerst die Spezifikation, danach den
+  Plan und die Aufgabenliste. Setze die Änderung erst auf dieser Grundlage um.
 - Füge niemals Zugangsdaten, Schlüssel oder andere Geheimnisse zum Repository
   hinzu.
 - Beachte die in `docs/prinzipien.md` festgelegten Qualitätsmaßstäbe.

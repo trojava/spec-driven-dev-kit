@@ -25,6 +25,9 @@ description: Setzt Aufgaben eines geplanten Features in kleinen, überprüften S
 ## Bei Abweichungen
 
 - Stoppe bei widersprüchlichen oder nicht erfüllbaren Vorgaben.
+- Behandle fachliche Anpassungswünsche an ein bereits umgesetztes Feature
+  zuerst mit `$feature-spezifizieren` und anschließend mit
+  `$umsetzung-planen`. Ändere bis zu deren Freigabe keinen Code.
 - Dokumentiere neu entdeckte Arbeit als zusätzliche Aufgabe.
 - Verlange eine Aktualisierung und erneute Freigabe, wenn sich eine Anforderung
   oder ein wesentlicher Planschritt ändern muss.
