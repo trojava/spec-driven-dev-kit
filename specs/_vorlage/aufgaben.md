@@ -4,7 +4,11 @@
 
 ## Arbeitsregeln
 
-- Eine Aufgabe soll ein kleines, überprüfbares Ergebnis liefern.
+- Eine Aufgabe soll ein überschaubares, eigenständig überprüfbares Ergebnis
+  liefern.
+- Zusammengehörige Schritte bleiben in einer Aufgabe, wenn sie ein gemeinsames
+  Ergebnis und eine gemeinsame Prüfung besitzen.
+- Offensichtliche Zwischenschritte werden nicht als eigene Aufgaben erfasst.
 - Jede Aufgabe verweist auf einen Planschritt und mindestens eine Anforderung.
 - Aufgaben werden möglichst in der angegebenen Reihenfolge bearbeitet.
 - Neue Erkenntnisse werden als neue Aufgabe oder Änderung der Spezifikation

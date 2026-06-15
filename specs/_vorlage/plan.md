@@ -4,6 +4,9 @@
 
 **Grundlage:** `spezifikation.md`
 
+Dokumentiere relevante Entscheidungen und Umsetzungsschritte. Wiederhole keine
+Anforderungen oder offensichtlichen Details, wenn ein Verweis genügt.
+
 ## Zusammenfassung
 
 Wie soll das Feature technisch umgesetzt werden?

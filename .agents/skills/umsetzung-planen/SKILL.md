@@ -28,11 +28,16 @@ description: Erstellt den technischen Umsetzungsplan und anschließend die Aufga
 
 Beginne damit erst, wenn `plan.md` freigegeben ist:
 
-1. Zerlege die Planschritte in kleine, geordnete und einzeln überprüfbare
-   Aufgaben.
+1. Zerlege die Planschritte in überschaubare, geordnete und einzeln prüfbare
+   Aufgaben. Fasse zusammengehörige Änderungen zusammen, solange sie ein
+   gemeinsames Ergebnis und eine gemeinsame Prüfung besitzen.
 2. Gib für jede Aufgabe Bezug, erwartetes Ergebnis und konkrete Prüfung an.
 3. Ergänze notwendige Dokumentations- und Abschlussaufgaben.
 4. Prüfe, dass alle Planschritte und Anforderungen abgedeckt sind.
+
+Erstelle keine eigenen Aufgaben für offensichtliche Zwischenschritte,
+Dateioperationen oder einzelne Tests, wenn diese sinnvoll zur Umsetzung einer
+anderen Aufgabe gehören.
 
 ## Grenzen
 

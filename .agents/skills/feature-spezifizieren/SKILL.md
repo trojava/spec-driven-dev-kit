@@ -15,8 +15,9 @@ description: Erstellt oder überarbeitet eine Feature-Spezifikation unter specs/
 3. Erfasse Ziel, Nutzen, Umfang, Beteiligte und ausdrücklich ausgeschlossene
    Punkte.
 4. Formuliere funktionale Anforderungen als User Stories mit eindeutigen,
-   beobachtbaren Akzeptanzkriterien. Berücksichtige Normal-, Fehler- und
-   relevante Randfälle.
+   beobachtbaren Akzeptanzkriterien. Fasse zusammengehöriges Verhalten in
+   einer Anforderung zusammen. Berücksichtige Normal-, Fehler- und Randfälle
+   nur, wenn sie fachlich relevant sind.
 5. Prüfe die Kategorien der nichtfunktionalen Anforderungen. Begründe kurz,
    wenn eine Kategorie nicht relevant ist.
 6. Dokumentiere Annahmen, offene Fragen und Risiken in der Spezifikation.
@@ -30,6 +31,8 @@ description: Erstellt oder überarbeitet eine Feature-Spezifikation unter specs/
   Vorlage kopierten Dateien.
 - Erstelle keinen technischen Plan und ändere keinen Quellcode.
 - Ersetze fehlende Informationen nicht durch erfundene Details.
+- Wiederhole keine Information in mehreren Abschnitten, wenn ein Verweis
+  genügt.
 
 ## Ergebnis
 

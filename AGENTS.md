@@ -41,6 +41,9 @@ Melde Widersprüche, bevor du weiterarbeitest.
 - Triff keine fachlichen oder technischen Annahmen stillschweigend.
 - Arbeite nur am ausdrücklich genannten Feature und Auftrag.
 - Halte Änderungen klein und nachvollziehbar.
+- Halte Dokumente fokussiert: Hebe wichtige Ziele, Entscheidungen, Risiken und
+  Prüfergebnisse hervor. Vermeide Wiederholungen und Details ohne erkennbaren
+  Nutzen für Umsetzung oder Review.
 - Ändere freigegebene Anforderungen nicht stillschweigend.
 - Ändere bei fachlichen Anpassungswünschen nach einer Umsetzung nicht direkt
   den Code. Aktualisiere und genehmige zuerst die Spezifikation, danach den

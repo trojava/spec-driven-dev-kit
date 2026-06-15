@@ -28,6 +28,9 @@ Blockierende Fragen müssen vor der Freigabe beantwortet sein.
 
 ## Funktionale Anforderungen
 
+Fasse zusammengehöriges Verhalten zusammen. Beschreibe nur fachlich relevante
+Normal-, Fehler- und Randfälle.
+
 ### R-01: [Kurzer Titel]
 
 **User Story:** Als [Rolle] möchte ich [Ziel], damit [Nutzen].

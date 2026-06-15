@@ -24,7 +24,11 @@ ausdrücklich an.
 3. Prüfe die Verknüpfung `Anforderung → Planschritt → Aufgabe → Prüfung`.
 4. Suche unbegründete technische Entscheidungen, fehlende Risiken,
    Abhängigkeiten und Rücknahmemöglichkeiten.
-5. Prüfe, ob Aufgaben klein, geordnet und einzeln überprüfbar sind.
+5. Prüfe, ob Aufgaben angemessen geschnitten, geordnet und einzeln prüfbar
+   sind.
+6. Kennzeichne unnötige Wiederholungen, übermäßig kleinteilige Anforderungen
+   oder Aufgaben und Details ohne erkennbaren Nutzen für Umsetzung oder
+   Review.
 
 ## Umsetzung prüfen
 
