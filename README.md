@@ -24,6 +24,9 @@ und menschliche Freigaben.
 6. Leite daraus `aufgaben.md` ab.
 7. Setze die Aufgaben in kleinen Abschnitten um und prüfe jeden Abschnitt.
 
+Jeder Schritt wird separat beauftragt. Der Agent stellt zuerst Rückfragen und
+stoppt nach jedem Schritt, bis der nächste ausdrücklich angefordert wird.
+
 Ein vollständig ausgefülltes, aber bewusst kleines Beispiel liegt unter
 `specs/000-beispiel-feature`. Es kann nach dem Kennenlernen der Vorlage
 gelöscht werden.
@@ -71,11 +74,15 @@ Arbeitsanleitung verwenden.
 Beispielaufrufe:
 
 > Nutze `$feature-spezifizieren` für meine Idee einer Benutzeranmeldung.
+> Stelle zunächst Rückfragen und ändere noch keine Dateien.
 >
 > Nutze `$umsetzung-planen` für `specs/001-benutzer-anmeldung`.
+> Erstelle nur den Plan und stoppe danach.
 >
-> Nutze `$feature-umsetzen` für die nächste offene Aufgabe in
-> `specs/001-benutzer-anmeldung`.
+> Der Plan ist freigegeben. Erstelle jetzt nur die Aufgabenliste und stoppe.
+>
+> Nutze `$feature-umsetzen` für Aufgabe T-01 in
+> `specs/001-benutzer-anmeldung` und stoppe danach.
 >
 > Nutze `$feature-pruefen`, um die Umsetzung von
 > `specs/001-benutzer-anmeldung` abzunehmen.

@@ -21,6 +21,9 @@ specs/
 6. Erstelle anschließend `aufgaben.md`.
 7. Setze die Aufgaben einzeln oder in kleinen Gruppen um.
 
+Beauftrage jeden Schritt ausdrücklich und separat. Ein Agent darf nicht
+selbstständig von Spezifikation zu Plan, Aufgaben oder Umsetzung wechseln.
+
 Die Nummern erleichtern Gespräche und Verweise. Sie müssen nicht lückenlos
 sein.
 

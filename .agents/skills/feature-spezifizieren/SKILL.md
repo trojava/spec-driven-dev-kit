@@ -5,6 +5,14 @@ description: Erstellt oder überarbeitet eine Feature-Spezifikation unter specs/
 
 # Feature spezifizieren
 
+## Klärung
+
+1. Prüfe, welches einzelne Feature spezifiziert werden soll.
+2. Stelle zuerst gezielte Rückfragen zu Ziel, Umfang, Verhalten und relevanten
+   Qualitätsanforderungen. Gib jeweils einen konkreten Vorschlag mit.
+3. Warte auf die Antworten. Erstelle oder ändere in diesem Schritt noch keine
+   Feature-Dateien.
+
 ## Ablauf
 
 1. Lies `AGENTS.md`, `docs/vision.md`, `docs/prinzipien.md` und
@@ -24,6 +32,8 @@ description: Erstellt oder überarbeitet eine Feature-Spezifikation unter specs/
    Stelle notwendige Rückfragen und gib jeweils einen konkreten Vorschlag mit.
 7. Prüfe die Freigabekriterien am Dateiende. Setze den Status erst nach
    ausdrücklicher menschlicher Bestätigung auf `Freigegeben`.
+8. Stoppe nach der Spezifikation. Erstelle weder Plan noch Aufgaben und beginne
+   keine Umsetzung.
 
 ## Grenzen
 
@@ -33,6 +43,7 @@ description: Erstellt oder überarbeitet eine Feature-Spezifikation unter specs/
 - Ersetze fehlende Informationen nicht durch erfundene Details.
 - Wiederhole keine Information in mehreren Abschnitten, wenn ein Verweis
   genügt.
+- Spezifiziere nicht automatisch weitere erkannte Features.
 
 ## Ergebnis
 

@@ -1,6 +1,6 @@
 ---
 name: umsetzung-planen
-description: Erstellt den technischen Umsetzungsplan und anschließend die Aufgabenliste für eine freigegebene Feature-Spezifikation. Verwenden, wenn plan.md oder aufgaben.md eines Feature-Ordners erstellt, ergänzt oder auf vollständige Anforderungsabdeckung gebracht werden sollen.
+description: Erstellt auf ausdrückliche Aufforderung entweder den technischen Umsetzungsplan oder die Aufgabenliste für eine freigegebene Feature-Spezifikation. Verwenden, wenn plan.md oder aufgaben.md eines Feature-Ordners separat erstellt, ergänzt oder auf vollständige Anforderungsabdeckung gebracht werden sollen.
 ---
 
 # Umsetzung planen
@@ -8,6 +8,8 @@ description: Erstellt den technischen Umsetzungsplan und anschließend die Aufga
 ## Voraussetzungen
 
 - Lies `AGENTS.md`, die Projektdokumente und alle Dateien des Feature-Ordners.
+- Kläre, ob der Benutzer ausdrücklich den Plan oder die Aufgabenliste
+  beauftragt hat. Führe nie beide Schritte in einem Auftrag aus.
 - Beginne nur, wenn `spezifikation.md` den Status `Freigegeben` hat und keine
   blockierenden Fragen enthält.
 
@@ -22,7 +24,9 @@ description: Erstellt den technischen Umsetzungsplan und anschließend die Aufga
 6. Weise auf Entscheidungen hin, die menschliche Bestätigung benötigen.
 7. Setze den Plan erst nach ausdrücklicher Bestätigung auf `Freigegeben`.
 
-Ändere in diesem Abschnitt keinen Quellcode und noch keine Aufgabenliste.
+Ändere in diesem Abschnitt keinen Quellcode und keine Aufgabenliste. Stoppe
+nach Erstellung oder Überarbeitung des Plans und warte auf einen separaten
+Auftrag.
 
 ## Aufgaben erstellen
 
@@ -39,11 +43,15 @@ Erstelle keine eigenen Aufgaben für offensichtliche Zwischenschritte,
 Dateioperationen oder einzelne Tests, wenn diese sinnvoll zur Umsetzung einer
 anderen Aufgabe gehören.
 
+Stoppe nach Erstellung oder Überarbeitung der Aufgabenliste. Beginne keine
+Umsetzung.
+
 ## Grenzen
 
 - Ändere keine freigegebene Spezifikation ohne ausdrücklichen Auftrag.
 - Ändere keinen Quellcode.
 - Markiere keine Umsetzungsaufgabe als erledigt.
+- Setze den Ablauf nicht selbstständig mit der nächsten Phase fort.
 
 ## Ergebnis
 

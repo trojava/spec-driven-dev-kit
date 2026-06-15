@@ -9,8 +9,9 @@ description: Setzt Aufgaben eines geplanten Features in kleinen, überprüften S
 
 1. Lies `AGENTS.md`, die Projektdokumente und alle Dateien des Feature-Ordners.
 2. Prüfe, dass Spezifikation und Plan freigegeben sind.
-3. Wähle die ausdrücklich genannte Aufgabe. Falls keine genannt ist, wähle die
-   erste offene Aufgabe, deren Voraussetzungen erfüllt sind.
+3. Beginne nur, wenn der Benutzer die Umsetzung ausdrücklich beauftragt hat.
+4. Bearbeite die ausdrücklich genannte Aufgabe. Falls keine Aufgabe genannt
+   ist, frage nach und ändere keinen Code.
 
 ## Aufgabe bearbeiten
 
@@ -21,6 +22,8 @@ description: Setzt Aufgaben eines geplanten Features in kleinen, überprüften S
 5. Führe zuerst die aufgabenspezifische Prüfung und danach angemessene
    Regressionstests aus.
 6. Markiere die Aufgabe nur bei erfolgreicher Prüfung mit `[x]`.
+7. Stoppe nach dieser Aufgabe. Bearbeite keine weitere Aufgabe ohne
+   ausdrückliche Aufforderung.
 
 ## Bei Abweichungen
 

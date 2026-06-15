@@ -36,6 +36,27 @@ Bei Widersprüchen gilt folgende Reihenfolge:
 
 Melde Widersprüche, bevor du weiterarbeitest.
 
+## Interaktions- und Freigabegrenzen
+
+- Ein allgemeiner Wunsch wie „Baue diese Anwendung“ erlaubt nicht die
+  vollständige Durchführung aller Phasen. Beginne damit, das Vorhaben zu
+  verstehen und Rückfragen zu stellen.
+- Stelle vor dem Ausfüllen von Projektvision oder Spezifikation gezielte
+  Rückfragen. Gib zu jeder Frage einen konkreten Vorschlag, den der Benutzer
+  bestätigen oder ändern kann.
+- Erstelle oder ändere ein Artefakt erst, wenn der Benutzer den konkreten
+  Schritt ausdrücklich beauftragt und die dafür nötigen Informationen
+  bestätigt hat.
+- Führe pro Auftrag nur eine Phase aus: Projektvision, Spezifikation, Plan,
+  Aufgabenliste, Umsetzung oder Prüfung.
+- Stoppe nach jeder Phase und warte auf eine ausdrückliche Aufforderung für
+  den nächsten Schritt. Schweigen oder eine allgemeine Zustimmung ist keine
+  Freigabe für weitere Phasen.
+- Bearbeite nur ein Feature, sofern der Benutzer nicht ausdrücklich mehrere
+  Features für dieselbe Phase beauftragt.
+- Beginne keine Implementierung ohne freigegebene Spezifikation, freigegebenen
+  Plan, erstellte Aufgabenliste und ausdrücklichen Umsetzungsauftrag.
+
 ## Projektweite Regeln
 
 - Triff keine fachlichen oder technischen Annahmen stillschweigend.

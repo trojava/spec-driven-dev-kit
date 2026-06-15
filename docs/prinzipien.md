@@ -44,6 +44,10 @@ Ein Mensch gibt Spezifikation und Plan vor der Umsetzung frei. Entscheidungen
 mit wesentlichen Auswirkungen auf Architektur, Sicherheit, Kosten oder
 Benutzer werden nicht allein durch einen KI-Agenten getroffen.
 
+Jede Phase wird separat beauftragt. Ein Agent setzt nach Projektvision,
+Spezifikation, Plan oder Aufgabenliste nicht selbstständig mit der nächsten
+Phase fort.
+
 ## Fertig bedeutet
 
 Ein Feature ist fertig, wenn:
