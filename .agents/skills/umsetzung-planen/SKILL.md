@@ -24,20 +24,23 @@ description: Erstellt auf ausdrückliche Aufforderung entweder den technischen U
 6. Weise auf Entscheidungen hin, die menschliche Bestätigung benötigen.
 7. Setze den Plan erst nach ausdrücklicher Bestätigung auf `Freigegeben`.
 
-Ändere in diesem Abschnitt keinen Quellcode und keine Aufgabenliste. Stoppe
-nach Erstellung oder Überarbeitung des Plans und warte auf einen separaten
-Auftrag.
+Ändere in diesem Abschnitt keinen Quellcode und keine Aufgabenliste. Frage
+nach Erstellung oder Überarbeitung des Plans: "Soll ich nach deiner Freigabe
+mit der Erstellung der Aufgabenliste fortfahren?" Warte auf die Antwort und
+fahre nur nach ausdrücklicher Beauftragung fort.
 
 ## Aufgaben erstellen
 
 Beginne damit erst, wenn `plan.md` freigegeben ist:
 
-1. Zerlege die Planschritte in überschaubare, geordnete und einzeln prüfbare
+1. Nutze das anhand der Vorlage ausgefüllte `plan.md` als Grundlage und fülle
+   `aufgaben.md` anhand der Vorlage aus.
+2. Zerlege die Planschritte in überschaubare, geordnete und einzeln prüfbare
    Aufgaben. Fasse zusammengehörige Änderungen zusammen, solange sie ein
    gemeinsames Ergebnis und eine gemeinsame Prüfung besitzen.
-2. Gib für jede Aufgabe Bezug, erwartetes Ergebnis und konkrete Prüfung an.
-3. Ergänze notwendige Dokumentations- und Abschlussaufgaben.
-4. Prüfe, dass alle Planschritte und Anforderungen abgedeckt sind.
+3. Gib für jede Aufgabe Bezug, erwartetes Ergebnis und konkrete Prüfung an.
+4. Ergänze notwendige Dokumentations- und Abschlussaufgaben.
+5. Prüfe, dass alle Planschritte und Anforderungen abgedeckt sind.
 
 Erstelle keine eigenen Aufgaben für offensichtliche Zwischenschritte,
 Dateioperationen oder einzelne Tests, wenn diese sinnvoll zur Umsetzung einer
