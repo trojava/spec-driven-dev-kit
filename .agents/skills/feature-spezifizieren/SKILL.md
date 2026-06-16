@@ -8,9 +8,12 @@ description: Erstellt oder überarbeitet eine Feature-Spezifikation unter specs/
 ## Klärung
 
 1. Prüfe, welches einzelne Feature spezifiziert werden soll.
-2. Stelle zuerst gezielte Rückfragen zu Ziel, Umfang, Verhalten und relevanten
+2. Prüfe, ob `docs/vision.md` fachlich ausgefüllt ist. Wenn die Projektvision
+   noch leer oder nur als Vorlage vorhanden ist, stoppe und unterstütze zuerst
+   die Klärung der Projektvision.
+3. Stelle zuerst gezielte Rückfragen zu Ziel, Umfang, Verhalten und relevanten
    Qualitätsanforderungen. Gib jeweils einen konkreten Vorschlag mit.
-3. Warte auf die Antworten. Erstelle oder ändere in diesem Schritt noch keine
+4. Warte auf die Antworten. Erstelle oder ändere in diesem Schritt noch keine
    Feature-Dateien.
 
 ## Ablauf

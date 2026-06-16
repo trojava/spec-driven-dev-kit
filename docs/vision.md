@@ -3,6 +3,13 @@
 > Dieses Dokument wird einmal zu Projektbeginn ausgefüllt und bei grundlegenden
 > Änderungen aktualisiert.
 
+## Arbeitsweise mit Agent
+
+Der Agent darf dieses Dokument nicht auf Basis eigener Annahmen ausfüllen.
+Er stellt zuerst Fragen und gibt zu jeder Frage einen konkreten Vorschlag, den
+der Nutzer akzeptieren oder durch eine eigene Antwort ersetzen kann. Erst nach
+Bestätigung der Antworten wird dieses Dokument aktualisiert.
+
 ## Problem
 
 Welches Problem soll die Software lösen?

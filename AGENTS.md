@@ -41,9 +41,16 @@ Melde Widersprüche, bevor du weiterarbeitest.
 - Ein allgemeiner Wunsch wie „Baue diese Anwendung“ erlaubt nicht die
   vollständige Durchführung aller Phasen. Beginne damit, das Vorhaben zu
   verstehen und Rückfragen zu stellen.
+- Prüfe vor Feature-Arbeit, ob `docs/vision.md` fachlich ausgefüllt ist. Wenn
+  die Projektvision noch leer oder nur als Vorlage vorhanden ist, starte kein
+  Feature. Unterstütze zuerst die Klärung der Projektvision.
 - Stelle vor dem Ausfüllen von Projektvision oder Spezifikation gezielte
   Rückfragen. Gib zu jeder Frage einen konkreten Vorschlag, den der Benutzer
   bestätigen oder ändern kann.
+- Wenn der Benutzer Hilfe beim Ausfüllen der Projektvision wünscht, formuliere
+  zuerst Fragen mit Vorschlägen zu Problem, Zielgruppe, Ziel, Nutzen, Umfang,
+  Nicht-Umfang, Erfolgskriterien und Rahmenbedingungen. Warte auf Bestätigung
+  oder alternative Antworten, bevor du `docs/vision.md` änderst.
 - Erstelle oder ändere ein Artefakt erst, wenn der Benutzer den konkreten
   Schritt ausdrücklich beauftragt und die dafür nötigen Informationen
   bestätigt hat.

@@ -26,6 +26,7 @@ und menschliche Freigaben.
 
 Jeder Schritt wird separat beauftragt. Der Agent stellt zuerst Rückfragen und
 stoppt nach jedem Schritt, bis der nächste ausdrücklich angefordert wird.
+Feature-Arbeit beginnt erst nach einer bestätigten Projektvision.
 
 Ein vollständig ausgefülltes, aber bewusst kleines Beispiel liegt unter
 `specs/000-beispiel-feature`. Es kann nach dem Kennenlernen der Vorlage
@@ -73,6 +74,10 @@ Arbeitsanleitung verwenden.
 
 Beispielaufrufe:
 
+> Hilf mir beim Ausfüllen von `docs/vision.md`. Stelle mir zuerst Fragen und
+> gib je Frage einen Vorschlag, den ich akzeptieren oder ändern kann. Ändere
+> noch keine Datei.
+>
 > Nutze `$feature-spezifizieren` für meine Idee einer Benutzeranmeldung.
 > Stelle zunächst Rückfragen und ändere noch keine Dateien.
 >
